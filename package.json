@@ -1,0 +1,26 @@
+{
+  "name": "autumn-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:watch",
+    "dev:watch": "node build/gulpfile.js  --environment TARGET:watch",
+    "dev:server": "node build/gulpfile.js   --environment TARGET:web-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autumn-Seven/Autumn-dev.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Autumn-Seven/Autumn-dev/issues"
+  },
+  "homepage": "https://github.com/Autumn-Seven/Autumn-dev#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
