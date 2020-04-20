@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run dev:watch",
-    "dev:watch": "node build/gulpfile.js  --environment TARGET:watch",
-    "dev:server": "node build/gulpfile.js   --environment TARGET:web-server"
+    "dev:watch": "node build/gulp.js  --environment TARGET:watch",
+    "dev:server": "gulp"
   },
   "repository": {
     "type": "git",
