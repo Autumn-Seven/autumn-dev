@@ -13,7 +13,11 @@ gulp.task('webserver', function() {
 		.pipe(webserver({
 			livereload: true,
 			directoryListing: true,
-			open: true
+			open: true,
+			// port:8000,
+			// host:'127.0.0.1',
+			// middleware:[],
+			// proxies:[]
 		}));
 });
 gulp.task('default', ['webserver']);
