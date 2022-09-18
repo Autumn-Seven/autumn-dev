@@ -18,7 +18,7 @@ var paths = {
   },
 };
 
-/* Not all tasks need to use streams, a gulpfile is just another node program
+/* Not all tasks need to use streams, a gulpfile is just  another node program
  * and you can use all packages available on npm, but it must return either a
  * Promise, a Stream or take a callback and call it
  */
