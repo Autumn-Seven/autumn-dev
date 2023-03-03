@@ -40,7 +40,7 @@
     "gulp-sftp": "^0.1.5",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "javascript-obfuscator": "^0.18.1",
+    "javascript-obfuscator": "^4.0.2",
     "minify": "^4.1.1"
   }
 }
